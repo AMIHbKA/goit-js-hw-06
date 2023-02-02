@@ -1,0 +1,16 @@
+module.exports = {
+  extends: ['stylelint-config-recess-order'],
+  rules: {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid",
+    "proseWrap": "always"
+  },
+};
+
