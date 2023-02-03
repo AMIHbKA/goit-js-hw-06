@@ -8,3 +8,4 @@ console.log(listCategoriesEl.childElementCount);
 
 const itemCategoriesListEl = listCategoriesEl.querySelectorAll('.item');
 console.dir(itemCategoriesListEl)
+console.log(listCategoriesEl.textContent);
