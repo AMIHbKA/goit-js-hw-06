@@ -21,5 +21,4 @@ const makeGallery = (array) =>
     .join("");
 
 const list = document.querySelector(".gallery");
-console.log(list);
 list.insertAdjacentHTML("beforeEnd", makeGallery(images));
