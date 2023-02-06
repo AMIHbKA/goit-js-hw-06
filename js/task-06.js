@@ -2,7 +2,7 @@ const inputRef = document.getElementById("validation-input");
 const lengthInputRef = Number(inputRef.dataset.length);
 
 function onFocusLost(event) {
-  if (inputRef.value.length <= lengthInputRef) {
+  if (inputRef.value.length === lengthInputRef) {
     inputRef.classList.remove("invalid");
     inputRef.classList.add("valid");
   } else {
