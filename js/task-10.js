@@ -12,7 +12,6 @@ const refs = {
 function createBoxes(amount) {
   const elem = [];
   let size = 20;
-  const targetDiv = document.getElementById("boxes");
 
   for (let i = 0; i < amount; i += 1) {
     size += 10;
@@ -23,7 +22,7 @@ function createBoxes(amount) {
     elem.push(curEl);
   }
 
-  targetDiv.append(...elem);
+  refs.targetDiv.append(...elem);
 }
 
 function destroyBoxes() {
